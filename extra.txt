@@ -1,0 +1,229 @@
+https://code.visualstudio.com/ >> Install
+https://nodejs.org/en >> Install
+https://git-scm.com/downloads >> Install
+https://github.com/ >> Create Account
+https://github.com/Aakashdeveloper >> Follow
+
+extension
+> vscode-icons
+> githistory
+> gitlens
+> spellcheck
+> Eslint
+> Tabnine
+
+Chorme
+> Json-viewer
+(https://chrome.google.com/webstore/detail/json-viewer/gbmdgpbipfallnflgajpaliibnhdgobh)
+
+NPM
+Basic NodeJS(in built)(Os,file,http)
+NodeJS(full Stack App) (Node-EJs-Mongo-Express)
+Third Party Api (Weather Api)
+Redis  > 6379
+Node-Es6(.babel)
+RedisWithMongo
+ImageUpload
+ImageUpload(formidable)
+Email With Node(nodemailer)
+MongoDb Basic >27017  (local/cloud)
+Zomato App backend
+Api with NodeJS(Rest)>1
+Swagger
+DashBoard(Crud)
+Testing
+Github
+--Deployment of app---
+render
+Pm2
+Nginx
+Jenkins
+Login/Logout(JWT)
+Oauth(with github)
+TelegramChat
+GraphQl API
+Paytm-Payment
+Oauth(with google)
+NodeJs with postgres
+Chatapp
+upload to s3 bucket
+FIREBASE (npm i -g firebase)
+Docker
+GitActions
+microservice(aws lambda)
+--------NOT---------
+React/Angular
+Html/css/jquery
+
+
+NodeJs
+> Single Thread, Async, Non Blocking I/O
+
+Npm
+> node package manager
+
+2,348,877
+
+Nexes repo
+
+JSON
+> JavaScript Object Notation
+> Way to represent data
+> Key value
+[
+    {
+        "name":"John",
+        "city":"Amsterdam"
+    },
+    {
+        "name":"Nikita",
+        "city":"London"
+    },
+    {
+        "name":"Amar",
+        "city":"Pune",
+        "age":10
+    }
+]
+
+///package.json
+> Entry point to app
+> Contains packages used in app
+> Script (start,test)
+> Meta Data (name,version,description)
+
+/* Step Generate to generate package.json */
+** NodeJs must be installed in laptop
+> go inside folder using terminal/cmd
+> npm init
+> Answer all questions
+> type yes
+
+
+/* Step Generate to install package */
+** NodeJs must be installed in laptop
+> go inside folder using terminal/cmd
+> npm i packagename/ npm install packagename
+
+npm i package@2.5.4
+                
+package-lock > Dependency tree
+node_modules > Contains all the packages you have installed
+.gitignore > What all things we dont want to push to git
+
+/* Step Generate to install dev dependency */
+** NodeJs must be installed in laptop
+> go inside folder using terminal/cmd
+> npm i packagename --save-dev
+
+
+local dependency
+> Default installation
+> they are local to the folder
+> only used for specific folder
+
+global dependency
+> installed in the laptop
+> can be used for any app
+> only used before app start
+> use to generate the app / run the app
+> will not add in package.json
+> need admin permission to install
+
+dev dependency
+> they are local to the folder
+> only dependencies used at time of development
+
+
+
+ADMIN SHUBHAM 7337313415
+
+Day-1 https://youtu.be/QrpT0xHxnL8
+Day-2 https://youtu.be/_VBlOCvjmDM
+Day-3 https://youtu.be/hpocmMjeMd8
+Day-4 https://youtu.be/3P4ULhOlnH0
+
+
+/////Step to install global package
+#window
+> open cmd as admin
+> npm i -g nodemon
+
+#mac /linux
+> open terminal
+> sudo npm i -g nodemon
+
+
+Es5
+Ecma Script
+Es6
+Ecma Script
+
+var a = 10
+"my age is "+a
+"my age is 10"
+
+
+var a = 10
+`my age is ${a}`
+"my age is 10"
+
+npm i mongodb@4.13.0
+
+////////
+Params
+> What we pass after /
+> Need to define in route
+> If defined than complousry to pass
+> Should be use for find results
+
+QueryParams
+> What we pass after ?
+> No need to define in router
+> Should be use for the filter data
+
+Body
+> what we pass from form 
+
+///////////
+Redis > 6379
+KEYS *
+set city Delhi
+get keyname
+del keyname
+FLUSHALL
+
+set keyname value ex time
+
+
+Go to your Google Account.
+Select Security.
+Under "Signing in to Google," select App Passwords. You may need to sign in. ...
+At the bottom, choose Select app and choose the app you using Select device and choose the device you're using. ...
+Follow the instructions to enter the App Password. ...
+Tap Done.
+
+
+cors> cross origin resource sharing
+
+//global package
+npm i -g pm2
+
+pm2 start app.js
+pm2 list
+pm2 stop start
+
+pm2 start app.js -i processNumber
+
+//dummy api
+> install global package
+* npm i -g json-server
+
+* json-server --watch db.json --port 9888
+
+
+https://docs.aws.amazon.com/keyspaces/latest/devguide/access.credentials.html
+
+
+docker build . -t  appname
+docker run 3000:9000 appname

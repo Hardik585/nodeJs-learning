@@ -1,0 +1,29 @@
+{
+    "categories": [
+        {
+            "id": 1,
+            "name": "Electronics",
+            "description": "Electronic devices and accessories"
+        },
+        {
+            "id": 2,
+            "name": "Clothing",
+            "description": "Apparel and fashion accessories"
+        },
+        {
+            "id": 3,
+            "name": "Books",
+            "description": "Books and literature"
+        },
+        {
+            "id": 4,
+            "name": "Home & Kitchen",
+            "description": "Home appliances, decor, and kitchenware"
+        },
+        {
+            "id": 5,
+            "name": "Sports & Outdoors",
+            "description": "Sports equipment and outdoor gear"
+        }
+    ]
+}
