@@ -1,0 +1,15 @@
+Formidable is particularly useful in scenarios where you need more advanced features and fine-grained control over file uploads. Here are some scenarios where Formidable is a good choice:
+
+1. **Handling Large Files**: If your application needs to handle large files (e.g., videos, high-resolution images, large data files), Formidable's streaming support allows you to process file uploads efficiently without loading the entire file into memory. This is especially important for applications where memory usage is a concern or when dealing with files that exceed available memory.
+
+2. **Streaming File Uploads**: Formidable supports streaming file uploads, allowing you to process file data in real-time as it is being uploaded. This is beneficial for scenarios where you need to process file data on-the-fly, perform validation or transformation, or store file data in a non-blocking manner without buffering the entire file in memory.
+
+3. **Custom File Handling**: Formidable provides more customization options for handling file uploads compared to simpler alternatives. You can customize various aspects of the file upload process, such as handling different file types differently, enforcing file size limits, validating file contents, and implementing custom logic based on file metadata or content.
+
+4. **Integration with Complex Workflows**: If your application has complex file upload workflows involving multiple steps, validation processes, or interactions with external systems (e.g., cloud storage services), Formidable's flexibility allows you to seamlessly integrate file uploads into your application's workflow and adapt to diverse requirements.
+
+5. **File Processing Pipelines**: Formidable can be used to create file processing pipelines where uploaded files are processed sequentially through a series of stages (e.g., validation, transformation, storage). Each stage in the pipeline can be customized independently, allowing you to build sophisticated file processing workflows tailored to your application's needs.
+
+6. **Real-time Data Processing**: Formidable's streaming support enables real-time processing of file data, making it suitable for applications that require immediate processing and response to uploaded files. This is useful for applications such as real-time media processing, data streaming, or collaborative document editing where quick feedback on file uploads is essential.
+
+In summary, Formidable is well-suited for scenarios requiring advanced file handling capabilities, such as handling large files, streaming file uploads, custom file processing, integration with complex workflows, and real-time data processing. If your application has such requirements, Formidable provides the flexibility and features necessary to implement robust and efficient file upload functionality.
