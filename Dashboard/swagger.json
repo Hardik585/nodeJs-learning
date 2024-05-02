@@ -1,0 +1,105 @@
+{
+    "openapi": "3.1.0",
+    "info": {
+        "description": "This is the Dashboard API ",
+        "version": "__version__ 1.0.0"
+    },
+    "tags": [
+        {
+            "name": "Hardik Public API",
+            "description": "this is for learning purpose"
+        }
+    ],
+    "paths": {
+        "/health": {
+            "summary": "Testing application working or not",
+            "get": {
+                "description": "Testing app for further proceeding",
+                "tags": [
+                    "Hardik Public API"
+                ],
+                "responses": {
+                    "200": {
+                        "description": "Dashboard API Health Pass "
+                    }
+                }
+            }
+        },
+        "/addUser": {
+            "summary": "This api is for adding new User ",
+            "post": {
+                "description": "Add New User BY this Api ",
+                "tags": [
+                    "Hardik Public API"
+                ],
+                "requestBody": {
+                    "required": true,
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "type": "object",
+                                "properties": {
+                                    "id": {
+                                        "type": "string"
+                                    }
+                                }
+                            },
+                            "example": {
+                                "name": "Hardik",
+                                "city": "Rohtak",
+                                "phone": 9090900,
+                                "role": "User",
+                                "isActive": true
+                            }
+                        }
+                    }
+                },
+                "responses": {
+                    "200": {
+                        "description": "User Added successfully"
+                    }
+                }
+            }
+        },
+        "/users": {
+            "summary": "This api is fetch all user from the db based on the query param",
+            "get": {
+                "description": "get user with or without filter ",
+                "tags": [
+                    "Hardik Public API"
+                ],
+                "parameters": [
+                    {
+                        "in": "query",
+                        "name": "role",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "description": "choose role as admin or user "
+                    },
+                    {
+                        "in": "query",
+                        "name": "city",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "description": "choose your city "
+                    },
+                    {
+                        "in": "query",
+                        "name": "isActive",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "description": "Choose isActive account or not "
+                    }
+                ],
+                "responses": {
+                    "200": {
+                        "description": "fetch successfully all the  Users "
+                    }
+                }
+            }
+        }
+    }
+}
